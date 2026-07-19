@@ -5,16 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.yeeps-tools.com.ico",
     "slug": "yeeps-tools",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "86.93%",
+    "uptimeDay": "86.93%",
+    "uptimeWeek": "86.93%",
+    "uptimeMonth": "86.93%",
+    "uptimeYear": "86.93%",
     "time": 12005,
     "timeDay": 12005,
     "timeWeek": 12005,
     "timeMonth": 12005,
     "timeYear": 12005,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-19": 0
+    }
   }
 ]
