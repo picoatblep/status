@@ -6,15 +6,30 @@ sites:
     url: https://www.yeeps-tools.com
 
 status-website:
-  baseUrl: /status
   name: Yeeps Tools Status
+  logoUrl: https://www.yeeps-tools.com/assets/img/yeeps-lettering.png
+  favicon: https://www.yeeps-tools.com/assets/favicon-32.png
+  theme: light
   introTitle: "Yeeps Tools — Status"
-  introMessage: Live status and uptime history for [www.yeeps-tools.com](https://www.yeeps-tools.com). This page is hosted on GitHub, separate from the site, so it stays up even when the site is down.
+  introMessage: Live status and uptime for [www.yeeps-tools.com](https://www.yeeps-tools.com). Hosted separately from the site, so it stays up even when the site doesn't.
   navbar:
     - title: Status
       href: /
     - title: Yeeps Tools
       href: https://www.yeeps-tools.com
+  customHeadHtml: |-
+    <style>
+      @font-face{font-family:'Lilita One';src:url('https://www.yeeps-tools.com/assets/fonts/LilitaOne-400.woff2') format('woff2');font-weight:400;font-display:swap}
+      @font-face{font-family:'Nunito Sans';src:url('https://www.yeeps-tools.com/assets/fonts/NunitoSans-var.woff2') format('woff2');font-weight:200 1000;font-display:swap}
+      :root{--yt-red:#df5454;--yt-peri:#5d6bbd;--yt-navy:#2c2f4b;--yt-bg:#eef0f9;--yt-surface:#fff;--yt-border:#dcdef0;--yt-border2:#c9cce4;--yt-ok:#2f9e5c;--yt-body:#474b6b}
+      html,body{background:var(--yt-bg)!important;color:var(--yt-navy)!important;font-family:'Nunito Sans',system-ui,-apple-system,sans-serif!important}
+      h1,h2,h3,h4{font-family:'Lilita One',system-ui,sans-serif!important;color:var(--yt-navy)!important;font-weight:400!important;letter-spacing:.4px}
+      a{color:var(--yt-peri)!important}
+      a:hover{color:var(--yt-red)!important}
+      .container{max-width:820px!important}
+      img[src*="yeeps-lettering"]{max-height:60px!important;width:auto!important}
+      .lead{color:var(--yt-body)!important}
+    </style>
 
 # Notifications, incident assignment, and more:
 # https://upptime.js.org/docs/configuration
