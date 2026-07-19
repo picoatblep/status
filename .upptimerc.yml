@@ -6,7 +6,7 @@ sites:
     url: https://www.yeeps-tools.com
 
 status-website:
-  cname: status.yeeps-tools.com
+  baseUrl: /status
   name: Yeeps Tools Status
   introTitle: "Yeeps Tools — Status"
   introMessage: Live status and uptime history for [www.yeeps-tools.com](https://www.yeeps-tools.com). This page is hosted on GitHub, separate from the site, so it stays up even when the site is down.
